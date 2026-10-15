@@ -48,4 +48,4 @@ See [SECURITY.md](SECURITY.md) before using this code with real users. Never com
 
 ## Credits
 
-Built for Limelight at IIIT Dharwad.
+Built for Limelight at IIIT Dharwad by Virat K.A.
