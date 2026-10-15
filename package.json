@@ -1,0 +1,9 @@
+{
+  "name": "limelight-live-portfolio",
+  "private": true,
+  "type": "module",
+  "description": "Portfolio copy of Limelight Live with Netlify account-management functions",
+  "dependencies": {
+    "firebase-admin": "^13.5.0"
+  }
+}

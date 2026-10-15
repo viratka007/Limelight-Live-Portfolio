@@ -27,7 +27,7 @@ This repository package currently contains the frontend only. The frontend calls
 - `/.netlify/functions/create-user`
 - `/.netlify/functions/delete-user`
 
-The corresponding trusted server-side function source files, their dependencies, and the deployment configuration must be added and reviewed before deploying a complete working copy. Do not expose privileged service-account credentials in frontend code or commit them to GitHub.
+The server-side functions, dependency manifest, and Netlify configuration are now included in this portfolio package. They are a reviewed starting point, not integration-tested production code. Follow [NETLIFY-SETUP.md](NETLIFY-SETUP.md) and deploy only to a separate demo Netlify site backed by a separate Firebase project. Never expose privileged service-account credentials in frontend code or commit them to GitHub.
 
 ## Local preview
 
@@ -44,8 +44,8 @@ Because Firebase is initialized by the page, opening `index.html` directly may n
 
 ## Security
 
-See [SECURITY.md](SECURITY.md) before using this code with real users. Never commit service-account JSON files, private keys, access tokens, passwords, or production secrets.
+Read [SECURITY.md](SECURITY.md) and [NETLIFY-SETUP.md](NETLIFY-SETUP.md) before deploying. Never commit service-account JSON files, private keys, access tokens, passwords, or production secrets.
 
 ## Credits
 
-Built for Limelight at IIIT Dharwad by Virat K.A.
+Built for Limelight at IIIT Dharwad.

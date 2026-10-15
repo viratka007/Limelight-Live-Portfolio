@@ -12,9 +12,9 @@ This is a browser-based application backed by Firebase and Netlify Functions. Tr
 - Test that unauthenticated visitors cannot access backstage profiles or modify roles, settings, polls, or archives beyond the intended public voting flow.
 - Consider Firebase App Check and abuse/rate controls where appropriate.
 
-## Current package limitation
+## Backend function status
 
-`index.html` calls `/.netlify/functions/create-user` and `/.netlify/functions/delete-user`. The function source files are not included in this package yet. Master-panel account creation/deletion is therefore not ready for a fresh deployment until those functions are added and reviewed.
+The package includes `netlify/functions/create-user.mjs` and `netlify/functions/delete-user.mjs`, plus shared authorization/configuration helpers. They require a separate demo Firebase project and server-side environment variables. They have been statically reviewed and syntax-checked, but have not been integration-tested against Netlify or Firebase. Follow `NETLIFY-SETUP.md` before deploying. Do not attach this repository to the existing production site.
 
 ## Firebase web config
 
