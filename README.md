@@ -41,4 +41,4 @@ This repository is a portfolio copy. The backend functions require server-side e
 
 ## Credits
 
-Built for Limelight, IIIT Dharwad.
+Built for Limelight by Virat K.A., IIIT Dharwad.
