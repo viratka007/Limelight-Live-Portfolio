@@ -1,0 +1,19 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+service-account*.json
+*-service-account*.json
+firebase-adminsdk-*.json
+
+# Dependencies and local tooling
+node_modules/
+.netlify/
+.DS_Store
+Thumbs.db
+
+# Local test artefacts
+*.log
+coverage/
